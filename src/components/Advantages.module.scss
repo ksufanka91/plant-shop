@@ -1,0 +1,31 @@
+.advantages {
+    margin-bottom: 230px;
+
+    @media (max-width: 1400px) {
+        margin-bottom: 100px;
+    }
+}
+
+.contentBox {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    @media (max-width: 1400px) {
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 40px 60px;
+    }
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+        gap: 50px 0;
+    }
+}
+
+.item {
+    @media (max-width: 768px) {
+        width: 100%;
+        max-width: 100%;
+    }
+}

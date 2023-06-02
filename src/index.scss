@@ -1,0 +1,85 @@
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body {
+  font-family: 'Work Sans', sans-serif;
+  font-weight: 500;
+  box-sizing: border-box;
+}
+
+.container {
+  max-width: 1490px;
+  padding: 0 20px;
+  margin: 0 auto;
+}
+
+.hidden {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+h1, h2, h3 {
+  color: #081323;
+  font-weight: 500;
+}
+
+h1 {
+  font-size: 82px;
+
+  @media (max-width: 1400px) {
+    font-size: 72px;
+  }
+
+  @media (max-width: 1024px) {
+    font-size: 62px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 52px;
+  }
+
+  @media (max-width: 430px) {
+    font-size: 32px;
+  }
+}
+
+h2 {
+  font-size: 64px;
+  margin: 0;
+
+  @media (max-width: 1400px) {
+    font-size: 54px;
+  }
+
+  @media (max-width: 768px) {
+    font-size: 44px;
+  }
+
+  @media (max-width: 430px) {
+    font-size: 34px;
+  }
+}
+
+h3 {
+  font-size: 48px;
+  color: #FFFFFF;
+
+  @media (max-width: 768px) {
+    font-size: 38px;
+  }
+
+  @media (max-width: 430px) {
+    font-size: 20px;
+  }
+}
+
+img {
+  max-width: 100%;
+}

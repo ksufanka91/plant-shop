@@ -1,0 +1,49 @@
+.header {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 50px;
+    z-index: 100;
+}
+
+.navigation {
+    display: flex;
+    align-items: center;
+
+
+    &Item {
+        display: flex;
+        flex: 1;
+        justify-content: center;
+
+        &:nth-child(2) {
+            flex: 2;
+        }
+
+        &Left {
+            margin-right: auto;
+        }
+
+        &Right {
+            margin-left: auto;
+        }
+
+        &Nav {
+            @media (max-width: 1024px) {
+                display: none;
+            }
+        }
+    }
+}
+
+.logo {
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.cart {
+    height: 36px;
+    margin-left: auto;
+    cursor: pointer;
+}
+

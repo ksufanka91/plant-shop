@@ -1,0 +1,43 @@
+.reference {
+    margin: 0 auto 180px;
+
+    @media (max-width: 1400px) {
+        margin-bottom: 100px;
+    }
+}
+
+.title {
+    margin-bottom: 28px;
+    text-align: center;
+}
+
+.subtitle {
+    margin-bottom: 82px;
+    font-weight: 400;
+    font-size: 24px;
+    color: #4F4F4F;
+    text-align: center;
+}
+
+.referenceBox {
+    display: flex;
+    gap: 32px;
+
+    @media (max-width: 768px) {
+        flex-direction: column;
+    }
+
+    &Column {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+
+        @media (max-width: 768px) {
+            row-gap: 32px;
+        }
+    }
+
+    &Image {
+        border-radius: 50px;
+    }
+}

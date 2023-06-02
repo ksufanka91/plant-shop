@@ -1,0 +1,23 @@
+[
+  {
+    "id": 1,
+    "name": "Philodendron",
+    "image": "/assets/plant-1.png",
+    "price": "30.00",
+    "rating": 5
+  },
+  {
+    "id": 2,
+    "name": "Philodendron",
+    "image": "/assets/plant-2.png",
+    "price": "25.00",
+    "rating": 4
+  },
+  {
+    "id": 3,
+    "name": "Sansevieria",
+    "image": "/assets/plant-3.png",
+    "price": "20.00",
+    "rating": 5
+  }
+]

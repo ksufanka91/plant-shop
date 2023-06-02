@@ -1,0 +1,39 @@
+.firstScreen {
+    position: relative;
+    background: url("../../public/assets/first-screen-bg.jpg") no-repeat center 60%;
+    background-size: cover;
+    padding-top: 200px;
+    min-height: 100vh;
+    text-align: center;
+    margin-bottom: 100px;
+
+    @media (max-width: 430px) {
+        padding-top: 150px;
+        margin-bottom: 50px;
+    }
+}
+
+.header {
+    width: 100%;
+    max-width: 1128px;
+    margin: 0 auto 24px;
+    font-weight: 700;
+    color: #FFFFFF;
+}
+
+.subtitle {
+    width: 100%;
+    max-width: 680px;
+    margin: 0 auto 42px;
+    font-size: 24px;
+    font-weight: 400;
+    color: #fff;
+
+    @media (max-width: 430px) {
+        font-size: 18px;
+    }
+}
+
+.searchInput {
+    margin: 0 auto;
+}

@@ -1,0 +1,43 @@
+.form {
+    position: relative;
+    max-width: 460px;
+}
+
+.input {
+    width: 460px;
+    max-width: 100%;
+    background: #3e4756;
+    color: #fff;
+    padding: 24px 10px 24px 30px;
+    border: 1px solid #FFFFFF;
+    backdrop-filter: blur(10px);
+    border-radius: 50px;
+
+    &::placeholder {
+        color: #fff;
+    }
+
+    &SmallOnMobile {
+        @media (max-width: 430px) {
+            padding-top: 13px;
+            padding-bottom: 13px;
+        }
+    }
+}
+
+.button {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+
+    &UnderOnMobile {
+        @media (max-width: 430px) {
+            display: block;
+            width: 100%;
+            position: static;
+            margin-top: 10px;
+            transform: none;
+        }
+    }
+}

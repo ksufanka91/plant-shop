@@ -1,0 +1,46 @@
+.howToCare {
+    margin-bottom: 200px;
+
+    @media (max-width: 1400px) {
+        margin-bottom: 100px;
+    }
+
+    &Box {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        gap: 30px;
+
+        @media (max-width: 1024px) {
+            flex-direction: column;
+        }
+    }
+}
+
+.title {
+    max-width: 452px;
+    margin-bottom: 28px;
+
+    @media (max-width: 1024px) {
+       max-width: 100%;
+    }
+}
+
+.subtitle {
+    font-weight: 400;
+    font-size: 24px;
+    color: #4F4F4F;
+    margin-bottom: 82px;
+}
+
+.iconsWithTextBox {
+    max-width: 585px;
+
+    @media (max-width: 768px) {
+        max-width: 100%;
+    }
+}
+
+.iconWithText {
+    margin-bottom: 32px;
+}
