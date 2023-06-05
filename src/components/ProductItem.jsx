@@ -15,7 +15,7 @@ const ProductItem = ({image, title, price, rating, className}) => {
                     <div className={styles.price}>{'$' + price}</div>
 
                     <Button size={'big'} icon={true}>
-                        <img src="/assets/plus-icon.svg" alt="add product to cart"/>
+                        <img src="assets/plus-icon.svg" alt="add product to cart"/>
                     </Button>
                 </div>
             </div>

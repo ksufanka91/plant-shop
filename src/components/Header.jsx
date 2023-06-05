@@ -10,7 +10,7 @@ function Header() {
                 <div className={styles.navigation}>
                     <div className={styles.navigationItem}>
                         <a href="/" className={styles.logo}>
-                            <img src="/assets/logo.svg" alt="main site logo"/>
+                            <img src="assets/logo.svg" alt="main site logo"/>
                         </a>
                     </div>
 
@@ -21,7 +21,7 @@ function Header() {
                     <div className={styles.navigationItem}>
                         {/*<Burger navShow={true} setNavShow={true}/>*/}
 
-                        <img src="/assets/header-cart.svg" className={styles.cart} alt="cart for purchase"/>
+                        <img src="assets/header-cart.svg" className={styles.cart} alt="cart for purchase"/>
                     </div>
                 </div>
             </div>

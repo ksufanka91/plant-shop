@@ -18,7 +18,7 @@ const SearchInput = ({className, placeholder, type, btnText = null}) => {
 
             <Button type={'submit'} icon={!btnText}
                     className={cn(styles.button, {[styles.buttonUnderOnMobile]: btnHasText})}>
-                {btnText ? btnText : <img src={"/assets/search-icon.svg"} alt="search button"/>}
+                {btnText ? btnText : <img src={"assets/search-icon.svg"} alt="search button"/>}
             </Button>
         </form>
     )
