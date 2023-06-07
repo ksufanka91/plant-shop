@@ -1,7 +1,7 @@
-import {useState} from "react";
 import Nav from './Nav'
 import styles from './Header.module.scss'
 import * as cn from 'classnames'
+import {Link} from "react-router-dom";
 
 function Header() {
     return (
@@ -9,9 +9,9 @@ function Header() {
             <div className="container">
                 <div className={styles.navigation}>
                     <div className={styles.navigationItem}>
-                        <a href="/" className={styles.logo}>
+                        <Link to="/" className={styles.logo}>
                             <img src="assets/logo.svg" alt="main site logo"/>
-                        </a>
+                        </Link>
                     </div>
 
                     <div className={cn(styles.navigationItem, styles.navigationItemNav)}>

@@ -1,5 +1,6 @@
 import styles from './Footer.module.scss';
 import SearchInput from "./SearchInput";
+import {Link} from "react-router-dom";
 
 const Footer = () => {
     const year = new Date().getFullYear();
@@ -15,7 +16,7 @@ const Footer = () => {
                     <div className={styles.items}>
                         <div className={styles.item}>
                             <a href="/" className={styles.title}>Support</a>
-                            <a href="/" className={styles.text}>About Us</a>
+                            <Link to="/about" className={styles.text}>About Us</Link>
                             <a href="/" className={styles.text}>Careers</a>
                             <a href="/" className={styles.text}>Blog</a>
                         </div>

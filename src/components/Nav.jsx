@@ -1,20 +1,21 @@
 import styles from "./Nav.module.scss";
+import {Link} from "react-router-dom";
 
 const Nav = () => {
     return (
         <div className={styles.itemsBox}>
-            <a href="/" className={styles.navItem}>
+            <Link to="/" className={styles.navItem}>
                 Home
-            </a>
-            <a href="/" className={styles.navItem}>
+            </Link>
+            <Link to="/shop" className={styles.navItem}>
                 Shop
-            </a>
-            <a href="/" className={styles.navItem}>
+            </Link>
+            <Link to="/about" className={styles.navItem}>
                 About Us
-            </a>
-            <a href="/" className={styles.navItem}>
+            </Link>
+            <Link to="/contacts" className={styles.navItem}>
                 Contact
-            </a>
+            </Link>
         </div>
     )
 };

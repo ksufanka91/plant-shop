@@ -1,5 +1,11 @@
 .advantages {
     margin-bottom: 230px;
+    padding-top: 100px;
+
+    @media (max-width: 430px) {
+        padding-top: 50px;
+    }
+
 
     @media (max-width: 1400px) {
         margin-bottom: 100px;

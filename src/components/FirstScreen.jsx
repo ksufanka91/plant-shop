@@ -1,16 +1,14 @@
 import styles from './FirstScreen.module.scss';
 import SearchInput from "./SearchInput";
 
-const FirstScreen = () => {
+const FirstScreen = ({title, subtitle = null, showSearchBtn = false}) => {
     return (
         <div className={styles.firstScreen}>
             <div className="container">
-                <h1 className={styles.header}>Bring Serenity to Your Place With Interior Plants</h1>
-                <div className={styles.subtitle}>
-                    find your dream plant for you home decoration with us, and we will make it happen.
-                </div>
+                <h1 className={styles.header}>{title}</h1>
+                {subtitle && <div className={styles.subtitle}>{subtitle}</div>}
 
-                <SearchInput className={styles.searchInput} type="text" placeholder='Search Plants'/>
+                {showSearchBtn && <SearchInput className={styles.searchInput} type="text" placeholder='Search Plants'/>}
             </div>
         </div>
     )
