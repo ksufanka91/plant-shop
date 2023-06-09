@@ -1,17 +1,17 @@
 import styles from './Footer.module.scss';
-import SearchInput from "./SearchInput";
+import InputWithButton from "../../UI/InputWithButton";
 import {Link} from "react-router-dom";
 
 const Footer = () => {
     const year = new Date().getFullYear();
 
     return (
-        <div className={styles.footer}>
+        <footer className={styles.footer}>
             <div className="container">
                 <div className={styles.footerBox}>
                     <div className={styles.subscribe}>
                         <h3 className={styles.footerTitle}>Newsletter</h3>
-                        <SearchInput type="text" placeholder='Enter your email' btnText={'Subscribe'}/>
+                        <InputWithButton type="text" placeholder="Enter your email" btnText="Subscribe"/>
                     </div>
                     <div className={styles.items}>
                         <div className={styles.item}>
@@ -44,7 +44,7 @@ const Footer = () => {
                 </div>
                 <div className={styles.rights}>© {year} Daunku - All rights reserved.</div>
             </div>
-        </div>
+        </footer>
     )
 };
 

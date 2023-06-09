@@ -1,5 +1,6 @@
 import styles from './BestsellersList.module.scss';
 import ProductItem from "./ProductItem";
+import {Link} from 'react-router-dom'
 
 
 const BestsellersList = ({products}) => {
@@ -10,7 +11,7 @@ const BestsellersList = ({products}) => {
                     <div className={styles.bestsellersBox}>
                         <h2 className={styles.title}>Best Seller Product</h2>
                         <div className={styles.moreInfo}>
-                            <div className={styles.subtitle}>See all colection</div>
+                            <Link to="/collection" className={styles.subtitle}>See all colection</Link>
                             <img src="assets/arrow.svg" alt="see all collection button"/>
                         </div>
                     </div>

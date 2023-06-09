@@ -15,6 +15,4 @@ const IconWithText = ({icon, title, description, className = null, iconBig = fal
     )
 };
 
-// размер default - big
-
 export default IconWithText;

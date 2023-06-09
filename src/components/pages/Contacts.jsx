@@ -1,7 +1,7 @@
-import FirstScreen from "../FirstScreen";
+import LandingScreen from "../LandingScreen";
 
 const Contacts = () => {
-    return <FirstScreen title={'Страница Contacts'}
+    return <LandingScreen title={'Страница Contacts'}
                         subtitle={'Дизайна нет, страница создана для демонстрации использования React Router.'}/>;
 }
 

@@ -33,7 +33,7 @@
         justify-content: space-between;
 
         @media (max-width: 768px) {
-            row-gap: 32px;
+            gap: 32px 0;
         }
     }
 

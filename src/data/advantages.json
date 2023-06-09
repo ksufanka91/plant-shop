@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "icon": "assets/adv-icon-1.svg",
+    "title": "Free Shipping",
+    "description": "No charge for each delivery"
+  },
+  {
+    "id": 2,
+    "icon": "assets/adv-icon-2.svg",
+    "title": "Quick Payment",
+    "description": "100% secure payment"
+  },
+  {
+    "id": 3,
+    "icon": "assets/adv-icon-3.svg",
+    "title": "24/7 Support",
+    "description": "Quick support"
+  }
+]

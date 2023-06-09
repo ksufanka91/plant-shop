@@ -1,8 +1,8 @@
 import Button from "./Button";
-import styles from './SearchInput.module.scss';
+import styles from './InputWithButton.module.scss';
 import * as cn from "classnames";
 
-const SearchInput = ({className, placeholder, type, btnText = null}) => {
+const InputWithButton = ({className, placeholder, type, btnText = null}) => {
     /**
      * Если у кнопки есть текст, то чтобы текст помещался на мобиле, мы переносим кнопку под инпут
      * И так же делаем инпут чуть меньше, чтобы он был одного размера с кнопкой (так смотрится аккуратней)
@@ -24,4 +24,4 @@ const SearchInput = ({className, placeholder, type, btnText = null}) => {
     )
 };
 
-export default SearchInput;
+export default InputWithButton;

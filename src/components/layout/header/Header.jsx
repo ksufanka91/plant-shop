@@ -19,8 +19,6 @@ function Header() {
                     </div>
 
                     <div className={styles.navigationItem}>
-                        {/*<Burger navShow={true} setNavShow={true}/>*/}
-
                         <img src="assets/header-cart.svg" className={styles.cart} alt="cart for purchase"/>
                     </div>
                 </div>

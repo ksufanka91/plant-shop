@@ -1,7 +1,7 @@
-import FirstScreen from "../FirstScreen";
+import LandingScreen from "../LandingScreen";
 
 const NotFound = () => {
-    return <FirstScreen title={'Page Not Found'}/>;
+    return <LandingScreen title={'Page Not Found'}/>;
 
 }
 
